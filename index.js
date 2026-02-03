@@ -9,10 +9,9 @@ bot.onText(/\/start/, (msg) => {
 });
 
 bot.onText(/\/market/, (msg) => {
-  bot.sendMessage(msg.chat.id, "Market testi çalışıyor ✅");
-});
-  const market = 
-`🛒 BUGÜNKÜ MARKET
+  const chatId = msg.chat.id;
+
+  const market = `🛒 BUGÜNKÜ MARKET
 
 🔫 Vandal – Reaver
 🔫 Phantom – Oni

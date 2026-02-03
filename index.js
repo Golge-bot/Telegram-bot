@@ -9,8 +9,8 @@ bot.onText(/\/start/, (msg) => {
 });
 
 bot.onText(/\/market/, (msg) => {
-  const chatId = msg.chat.id;
-
+  bot.sendMessage(msg.chat.id, "Market testi çalışıyor ✅");
+});
   const market = 
 `🛒 BUGÜNKÜ MARKET
 

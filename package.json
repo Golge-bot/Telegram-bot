@@ -1,15 +1,15 @@
 {
-  "name": "telegram-bot",
+  "name": "valorant-telegram-bot",
   "version": "1.0.0",
+  "description": "Telegram bot for Valorant profile info",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "author": "Golge",
+  "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0"
-  }
-  "dependencies": {
-  "node-telegram-bot-api": "^0.64.0",
-  "axios": "^1.6.0"
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0"
   }
 }
